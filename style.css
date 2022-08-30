@@ -23,8 +23,8 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   background-color: #eee;
-  /* padding-top: 14px; */
-  /* padding-bottom: 14px; */
+  padding-top: 14px;
+  padding-bottom: 14px;
   text-align: center;
 }
 .product-img {
@@ -33,7 +33,7 @@ body {
 .info-box {
 }
 .price-box {
-  /* padding: 10px 0; */
+  padding: 10px 0;
 }
 .product-price {
   font-weight: 700;
@@ -45,10 +45,11 @@ body {
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
+  margin-top: 10px;
 }
 .product-description {
   font-size: 16px;
-  /* margin-bottom: 10px; */
+  margin-bottom: 10px;
 }
 
 /* MORE INFORMATION LINK */
@@ -62,24 +63,39 @@ body {
   text-decoration: none;
 }
 
-.detail-box {
-}
 .product-details {
+  font-size: 18px;
+  font-weight: 550;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  margin-bottom: 10px;
 }
 
 .details {
   font-size: 16px;
   list-style: square;
-  /* padding-left: 20px; */
+  padding-left: 20px;
+}
+
+.details li {
+  margin-bottom: 10px;
 }
 
 .call-to-action {
+  text-transform: uppercase;
   background-color: black;
   border: none;
   color: whitesmoke;
-  font-size: 28px;
+  font-size: 24px;
   width: 100%;
-  /* padding: 15px; */
+  padding: 15px;
+  border-top: 5px solid #211d1c;
+}
+
+.call-to-action:hover {
+  background-color: white;
+  color: #211d1c;
+  border-top: 5px solid #211d1c;
 }
 
 /* -------------------COLORS */
@@ -92,7 +108,7 @@ body {
 }
 
 .avl-colors {
-  /* margin: 24px 0; */
+  margin: 24px 0;
 }
 
 .black-c {
@@ -135,6 +151,7 @@ body {
 .detail-box {
   float: right;
   width: 240px;
+  margin-top: 10px;
 }
 
 .avl-colors li {
@@ -144,5 +161,4 @@ body {
 
 .delivery-facility {
   float: right;
-  /* margin-top: 10px; */
 }
