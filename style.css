@@ -1,3 +1,4 @@
+/* --------------------------GENERAL CSS */
 * {
   margin: 0;
   padding: 0;
@@ -12,12 +13,14 @@ body {
   line-height: 1.4;
 }
 
+/* --------------------------THE PRODUCT BOX */
 .product-box {
   max-width: 810px;
   margin: 100px auto;
   border: 5px solid #211d1c;
 }
 
+/* --------------------------THE HEAD */
 .product-name {
   font-size: 22px;
   font-weight: 700;
@@ -30,11 +33,10 @@ body {
 .product-img {
   width: 240px;
 }
-.info-box {
-}
-.price-box {
-  padding: 10px 0;
-}
+
+/* --------------------------THE INFO SECTION */
+
+/* Price Box */
 .product-price {
   font-weight: 700;
   font-size: 24px;
@@ -45,14 +47,14 @@ body {
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 10px;
-}
-.product-description {
-  font-size: 16px;
-  margin-bottom: 10px;
 }
 
-/* MORE INFORMATION LINK */
+/* Product Description---- */
+.product-description {
+  font-size: 16px;
+}
+
+/* links---- */
 .more-info:link,
 .more-info:visited {
   color: #211d1c;
@@ -63,52 +65,13 @@ body {
   text-decoration: none;
 }
 
-.product-details {
-  font-size: 18px;
-  font-weight: 550;
-  text-transform: uppercase;
-  letter-spacing: 0.3px;
-  margin-bottom: 10px;
-}
-
-.details {
-  font-size: 16px;
-  list-style: square;
-  padding-left: 20px;
-}
-
-.details li {
-  margin-bottom: 10px;
-}
-
-.call-to-action {
-  text-transform: uppercase;
-  background-color: black;
-  border: none;
-  color: whitesmoke;
-  font-size: 24px;
-  width: 100%;
-  padding: 15px;
-  border-top: 5px solid #211d1c;
-}
-
-.call-to-action:hover {
-  background-color: white;
-  color: #211d1c;
-  border-top: 5px solid #211d1c;
-}
-
-/* -------------------COLORS */
+/* --------------------------THE COLORS SECTION */
 .avl-colors li {
   width: 20px;
   height: 20px;
   cursor: pointer;
   gap: 5px;
   list-style: none;
-}
-
-.avl-colors {
-  margin: 24px 0;
 }
 
 .black-c {
@@ -130,8 +93,42 @@ body {
   background-color: brown;
 }
 
+/* --------------------------THE PRODUCT DETAILS SECTION */
+.product-details {
+  font-size: 18px;
+  font-weight: 550;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  margin-bottom: 10px;
+}
+
+.details {
+  font-size: 16px;
+  list-style: square;
+  padding-left: 20px;
+}
+
+/* --------------------------THE CALL TO ACTION SECTION */
+
+.call-to-action {
+  text-transform: uppercase;
+  background-color: black;
+  border: none;
+  color: whitesmoke;
+  font-size: 24px;
+  width: 100%;
+  padding: 15px;
+  border-top: 5px solid #211d1c;
+}
+
+.call-to-action:hover {
+  background-color: white;
+  color: #211d1c;
+  border-top: 5px solid #211d1c;
+}
+
 /* ----------------------FLOATS LAYOUT*/
-.clearfix::after {
+/* .clearfix::after {
   content: "";
   display: block;
   clear: both;
@@ -161,4 +158,4 @@ body {
 
 .delivery-facility {
   float: right;
-}
+} */
