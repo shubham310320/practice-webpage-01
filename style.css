@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: black;
+  line-height: 1.4;
+}
+
+.product-box {
+  max-width: 810px;
+  margin: 100px auto;
+  border: 5px solid #211d1c;
+}
+
+.product-name {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #eee;
+  /* padding-top: 14px; */
+  /* padding-bottom: 14px; */
+  text-align: center;
+}
+.product-img {
+  width: 240px;
+}
+.info-box {
+}
+.price-box {
+  /* padding: 10px 0; */
+}
+.product-price {
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 1.2px;
+}
+.delivery-facility {
+  color: #777;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.product-description {
+  font-size: 16px;
+  /* margin-bottom: 10px; */
+}
+
+/* MORE INFORMATION LINK */
+.more-info:link,
+.more-info:visited {
+  color: #211d1c;
+  font-size: 18px;
+}
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+.detail-box {
+}
+.product-details {
+}
+
+.details {
+  font-size: 16px;
+  list-style: square;
+  /* padding-left: 20px; */
+}
+
+.call-to-action {
+  background-color: black;
+  border: none;
+  color: whitesmoke;
+  font-size: 28px;
+  width: 100%;
+  /* padding: 15px; */
+}
+
+/* -------------------COLORS */
+.avl-colors li {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  gap: 5px;
+  list-style: none;
+}
+
+.avl-colors {
+  /* margin: 24px 0; */
+}
+
+.black-c {
+  background-color: black;
+}
+.blue-c {
+  background-color: blue;
+}
+.red-c {
+  background-color: red;
+}
+.yellow-c {
+  background-color: yellow;
+}
+.green-c {
+  background-color: green;
+}
+.brown-c {
+  background-color: brown;
+}
+
+/* ----------------------FLOATS LAYOUT*/
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.product-img {
+  float: left;
+  margin-right: 40px;
+}
+
+.info-box {
+  float: left;
+  width: 240px;
+  margin-right: 40px;
+}
+
+.detail-box {
+  float: right;
+  width: 240px;
+}
+
+.avl-colors li {
+  float: left;
+  margin-right: 12px;
+}
+
+.delivery-facility {
+  float: right;
+  /* margin-top: 10px; */
+}
